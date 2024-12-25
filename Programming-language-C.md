@@ -13,12 +13,13 @@ Ctrl + Shift + B - перекомпиляция
 
 Скачиваем в инете MinGW, далее сверху сверху All packages -> выбираем mingw32-gcc-bin , mingw32-gcc-g++-bin , mingw32-make-bin , mingw32-gdb-bin . -> Installation -> Apply changes
 
-Далее. Настройки win -> система -> доп. параметры системы -> переменные среды -> системные переменные -> Path -> Создать (C:\MinGW\bin)
+Далее. Настройки win -> система -> доп. параметры системы -> переменные среды -> системные переменные -> Path -> Создать C:/MinGW/bin
 
-Для проверки, установилось ли все корректно: cmd -> gcc. Нужно, чтобы вылезло это: <br>
-gcc: fatal error: no input files <br>
+```markdown
+Для проверки, установилось ли все корректно: cmd -> gcc. Нужно, чтобы вылезло это:
+gcc: fatal error: no input files
 compilation terminated.
-
+```
 ### 2. Скачивание интегрированной среды для разработки
 
 VSCode скачиваем.
